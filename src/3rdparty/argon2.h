@@ -22,15 +22,12 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef XMRIG_CL_H
-#define XMRIG_CL_H
+
+#ifndef XMRIG_3RDPARTY_ARGON2_H
+#define XMRIG_3RDPARTY_ARGON2_H
 
 
-#if defined(__APPLE__)
-#   include <OpenCL/cl.h>
-#else
-#   include "3rdparty/CL/cl.h"
-#endif
+#include "3rdparty/argon2/include/argon2.h"
 
 
-#endif /* XMRIG_CL_H */
+#endif /* XMRIG_3RDPARTY_ARGON2_H */
